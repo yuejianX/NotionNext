@@ -94,7 +94,7 @@ const Hero = props => {
         priority
         id='header-cover'
         alt={siteInfo?.title}
-        src={siteInfo?.pageCover}
+        src='https://cdn.jsdelivr.net/gh/yuejianX/pics@main/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260826181706_54_2.jpg'
         width={1920}
         height={1080}
         className={`header-cover w-full h-screen object-cover object-center ${siteConfig('HEXO_HOME_NAV_BACKGROUND_IMG_FIXED', null, CONFIG) ? 'fixed' : ''}`}
